@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration Form</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>Registration Form</h1>
+		<div id="container">
+			<form method="post" name="form1">
+			<label>First Name:</label> 
+			<input type="text" name="first_name" required placeholder=""><br/><br/>
+			<label>Last Name:</label> <input type="text" name="last_name" required><br/><br/>
+			<label>Gender:</label><input type="radio" name="gender" value="male">Male
+				<input type="radio" name="gender" value="female">Female<br/><br/>
+			<label>Date of Birth:</label> <input type="date" name="birth" required><br/><br/>
+			<label>Email:</label><input type="email" name="email" id="email" required><br/><br/>
+			<label>Mobile:</label><input type="text" name="mobile" required id="extra"><br/><br/>
+			<input type="file" name="resume"><br/><br/>
+			<input type="submit" value="Submit" id="button" onClick="Validation()">
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>

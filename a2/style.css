@@ -1,0 +1,64 @@
+body{
+	background:url(form.jpeg) center center no-repeat fixed;
+	background-size:cover;
+}
+h1{
+	text-align:center;
+	padding-top:10px;
+	font-size:36px;
+	font-family:cursive;
+	color:white;
+}
+#container{
+	width:60%;
+	margin:0 auto;
+	height:400px;
+	background-color:rgba(247,245,245,0.3);
+	padding: 40px;
+	border-radius:10px;
+}
+label{
+	margin-left:40px;
+	font-size:22px;
+	font-family:arial;
+}
+#button{
+	margin-left:30%;
+	margin-top:-10px;
+	padding:8px 8px;
+	width:180px;
+	font-size:15px;
+	font-family:arial;
+	background-color:grey;
+	color:white;
+}
+input[type="text"]{
+	width:60%;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	margin-left:25px;
+	border-radius:5px;
+}
+input[type="email"]{
+	width:60%;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	margin-left:60px;
+	border-radius:5px;
+}
+input[type="radio"]{
+	margin-left:30px;
+}
+input[type="date"]{
+	margin-left:30px;
+	padding:3px;
+}
+#extra{
+	margin-left:50px;
+}
+input[type="file"]{
+	margin-top:5px;
+	margin-left:50px;
+}

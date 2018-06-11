@@ -1,0 +1,23 @@
+BOOK{
+	display:block;
+	text-align:center;
+	margin-bottom:30px;
+}
+TITLE{
+	color:red;
+	display:block;
+	font-size:28px;
+}
+AUTHOR{
+	display:block;
+	color:#0000ff;
+	font-size:20px;
+}
+PRICE,YEAR{
+	display:block;
+	color:#C63D0F;
+	font-size:20px;
+}
+YEAR{
+	color:#0f0f0f;
+}

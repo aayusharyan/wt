@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<CATALOG>
+	<BOOK>
+		<TITLE>Web Technology</TITLE>
+		<AUTHOR>Sachin Wandre</AUTHOR>
+		<PRICE>Price: Rs500</PRICE>
+		<YEAR>Year:2017</YEAR>
+	</BOOK>
+	<BOOK>
+		<TITLE>Computer Network</TITLE>
+		<AUTHOR>Tenenbaum</AUTHOR>
+		<PRICE>Price: Rs600</PRICE>
+		<YEAR>Year:1985</YEAR>
+	</BOOK>
+	<BOOK>
+		<TITLE>Software Engineering and Project Management</TITLE>
+		<AUTHOR>Roger Pressman</AUTHOR>
+		<PRICE>Price: Rs600</PRICE>
+		<YEAR>Year:1985</YEAR>
+	</BOOK>
+</CATALOG>
